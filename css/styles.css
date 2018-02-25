@@ -55,9 +55,9 @@ a {
   height: 100%;
 }
 
-.header-avatar img {
+.header-avatar-img {
   border-radius: 50%;
-  width: 60%;
+  width: 70%;
   max-width: 14rem;
   float: right;
 }
@@ -107,7 +107,8 @@ a {
   width: 75%;
 }
 
-.header-content-brand h1 {
+.brand-name,
+.brand-surname {
   margin: 0;
 }
 
@@ -180,7 +181,7 @@ a {
   margin-right: 0;
 }
 
-.social-button i {
+.fab {
   color: #717273;
 }
 
@@ -207,7 +208,7 @@ a {
   justify-content: flex-end;
 }
 
-.header-content-about p {
+.header-content-about-text {
   line-height: 1.75;
   text-align: justify;
 }
@@ -348,7 +349,7 @@ address {
     background: #2d2e2e;
   }
 
-  .header-avatar img {
+  .header-avatar-img {
     display: block;
     margin: auto;
     float: none;
